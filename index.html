@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+
+  <!--- Basic Page Needs
+   ================================================== -->
+  <meta charset="utf-8">
+  <title>Kreative</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+   ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+
+  <!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+  <!-- Favicons
+	================================================== -->
+  <link rel="shortcut icon" href="favicon.ico">
+
+
+</head>
+
+<body data-spy="scroll" data-target="#nav-wrap">
+
+
+  <!-- Header
+   ================================================== -->
+  <header class="mobile">
+
+    <div class="row">
+
+      <div class="col full">
+
+        <div class="logo">
+          <a href="#"><img alt="" src="images/mauilogo.png"></a>
+        </div>
+
+        <nav id="nav-wrap">
+
+          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+          <ul id="nav" class="nav">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header> <!-- Header End -->
+
+
+  <!-- Intro Section
+   ================================================== -->
+  <section id="intro">
+
+    <!-- Flexslider Start-->
+    <div id="intro-slider" class="flexslider">
+
+      <ul>
+
+        <!-- Slide -->
+        <li>
+          <div class="row">
+            <div class="col full">
+              <div class="slider-text">
+                <h2>Hello, I am <span>Maui</span>.
+                </h2>
+
+                <h2>I build stuff for the internetz</h2>
+                <p>A Full Stack Developer from Queens, New York</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- Flexslider End-->
+
+  </section> <!-- Intro Section End-->
+
+
+
+
+
+  <!-- Portfolio Section
+   ================================================== -->
+  <section id="portfolio">
+
+    <div class="row section-head">
+      <div class="col full">
+
+        <h2>Projects</h2>
+        <p class="desc">These are the projects that I have worked on</p>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <!-- Portfolio Wrapper -->
+      <div id="portfolio-wrapper">
+
+        <div class="col portfolio-item">
+          <div class="item-wrap">
+            <a href="#" data-reveal-id="modal-01"><img src="images/portfolio/tiririt.jpg" alt="" /></a>
+            <div class="portfolio-item-meta">
+              <h5><a href="#" data-reveal-id="modal-01">Tiririt</a></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col portfolio-item">
+          <div class="item-wrap">
+            <a href="#" data-reveal-id="modal-02"><img src="images/portfolio/pitscaraccessories.jpg" alt="" /></a>
+            <div class="portfolio-item-meta">
+              <h5><a href="#" data-reveal-id="modal-02">Pit's Car Accessories</a></h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col portfolio-item">
+          <div class="item-wrap">
+            <a href="#" data-reveal-id="modal-03"><img src="images/portfolio/bugtracker.jpg" alt="" /></a>
+            <div class="portfolio-item-meta">
+              <h5><a href="#" data-reveal-id="modal-03">Bug Tracker</a></h5>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- Portfolio Wrapper End -->
+
+
+    </div> <!-- End Row -->
+
+
+    <!-- Modal Popup
+	   =========================================================== -->
+
+    <!-- modal-01 -->
+    <div id="modal-01" class="reveal-modal">
+
+      <img class="scale-with-grid" src="images/portfolio/modals/m-tiririt.jpg" alt="" />
+
+      <div class="description-box">
+        <h4>Tiririt</h4>
+        <p>A project I made to learn React and Redux. It's a twitter clone application that only has the basic features
+          of twitter.</p>
+        <span class="categories"><i class="icon-tag"></i>Social Media</span>
+      </div>
+
+      <div class="link-box">
+        <a href="https://tiririt.herokuapp.com/" target="_blank">Website</a>
+        <a href="https://github.com/zenakent/Tiririt-client" target="_blank">Client Repo</a>
+        <a href="https://github.com/zenakent/Tiririt-server" target="_blank">Server Repo</a>
+        <a class="close-reveal-modal">Close</a>
+      </div>
+
+    </div><!-- modal-01 End -->
+
+    <!-- modal-02 -->
+    <div id="modal-02" class="reveal-modal">
+
+      <img class="scale-with-grid" src="images/portfolio/modals/m-pitscaraccessories.jpg" alt="" />
+
+      <div class="description-box">
+        <h4>Pit's Car Accessories</h4>
+        <p>An Online Store for a local business in the Philippines. Made with Node, Express, EJS, and MongoDB. It has a
+          CMS in order to add, delete, update the products as well as deleting users and completing orders that has been
+          made.</p>
+        <span class="categories"><i class="icon-tag"></i>Online Store</span>
+      </div>
+
+      <div class="link-box">
+        <a href="https://pitscaraccessories.herokuapp.com/" target="_blank">Website </a>
+        <a href="https://github.com/zenakent/Pit-s-Car-Accessories" target="_blank"> Github Repo </a>
+        <a class="close-reveal-modal">Close</a>
+      </div>
+
+    </div> <!-- modal-02 End -->
+
+    <!-- modal-03 -->
+    <div id="modal-03" class="reveal-modal">
+
+      <img class="scale-with-grid" src="images/portfolio/modals/m-bugtracker.jpg" alt="" />
+
+      <div class="description-box">
+        <h4>Bug Tracker</h4>
+        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+          consequat ipsum, nec sagittis sem nibh id elit.</p>
+        <span class="categories"><i class="icon-tag"></i>Ticketing System</span>
+      </div>
+
+      <div class="link-box">
+        <a href="https://mauisbugtracker.herokuapp.com/" target="_blank">Website</a>
+        <a href="https://github.com/zenakent/bug_tracker" target="_blank"> Github Repo </a>
+        <a class="close-reveal-modal">Close</a>
+      </div>
+
+    </div> <!-- modal-03 End -->
+
+
+  </section> <!-- Portfolio End -->
+
+  <!-- About Section
+   ================================================== -->
+  <section id="about">
+
+    <div class="row section-head">
+
+      <div class="col one-fourth">
+        <h2>About Me</h2>
+        <img src="./images/aboutmepic.jpg" id="aboutmepic" alt="" srcset="">
+      </div>
+
+      <div class="col three-fourths">
+        <br><br>
+        <p class="intro">I am a Full Stack Web Developer and I specialize in the MERN stack. I'm from Queens, New York,
+          graduated with a Associate of Science in Computer Science while working as a Staffing Coordinate at Jamaica
+          Hospital. Currently taking my Bachelor's degree for IT and will be graduating in March 2020.</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col full">
+        <h3>Skill sets that I have</h3>
+      </div>
+    </div>
+
+    <div class="row process-wrap">
+
+      <div class="col">
+        <h4>Front End.</h4>
+
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Javascript</p>
+      </div>
+
+      <div class="col">
+        <h4>Back End.</h4>
+
+        <p>Nodejs</p>
+        <p>Express js</p>
+      </div>
+
+      <div class="col m-first">
+        <h4>Frameworks.</h4>
+
+        <p>React</p>
+        <p>Bootstrap</p>
+      </div>
+
+      <div class="col">
+        <h4>Tools.</h4>
+
+        <p>Redux</p>
+        <p>Git & Github</p>
+      </div>
+
+    </div> <!-- Process Wrap End -->
+
+
+
+
+  </section> <!-- About Section End-->
+
+  <!-- Contact Section
+   ================================================== -->
+  <section id="contact">
+
+    <div class="row section-head">
+      <div class="col full">
+        <h2>Contact Me</h2>
+        <p class="desc">Get in touch.</p>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col g-7">
+
+        <!-- form -->
+        <form data-bss-recipient="309c1124370759b96daca307ee2d71f8" data-bss-subject="from portfolio site">
+          <fieldset>
+
+            <div>
+              <label for="contactName">Name <span class="required">*</span></label>
+              <input name="contactName" type="text" id="contactName" size="35" value="" />
+            </div>
+
+            <div>
+              <label for="contactEmail">Email <span class="required">*</span></label>
+              <input name="contactEmail" type="text" id="contactEmail" size="35" value="" />
+            </div>
+
+            <div>
+              <label for="contactSubject">Subject</label>
+              <input name="contactSubject" type="text" id="contactSubject" size="35" value="" />
+            </div>
+
+            <div>
+              <label for="contactMessage">Message <span class="required">*</span></label>
+              <textarea name="contactMessage" id="contactMessage" rows="15" cols="50"></textarea>
+            </div>
+
+            <div>
+              <button class="submit">Submit</button>
+              <span id="image-loader">
+                <img src="images/loader.gif" alt="" />
+              </span>
+            </div>
+
+          </fieldset>
+        </form> <!-- Form End -->
+
+        <!-- contact-warning -->
+        <div id="message-warning"></div>
+        <!-- contact-success -->
+        <div id="message-success">
+          <i class="icon-ok"></i>Your message was sent, thank you!<br />
+        </div>
+
+      </div>
+
+
+      <aside class="col g-5">
+
+        <h3>Contact Information</h3>
+
+
+        <p>Email: peter.m.torio@gmail.com</p>
+        <br />
+
+      </aside>
+
+    </div>
+
+  </section> <!-- Contact Section End-->
+
+  <!-- footer
+   ================================================== -->
+  <footer>
+
+    <div class="row">
+
+      <div class="col g-5">
+        <ul class="social-links">
+          <li><a href="#"><i class="icon-facebook"></i></a></li>
+          <li><a href="#"><i class="icon-twitter"></i></a></li>
+          <li><a href="#"><i class="icon-github"></i></a></li>
+          <li><a href="#"><i class="icon-linkedin"></i></a></li>
+
+        </ul>
+      </div>
+
+    </div>
+
+  </footer> <!-- Footer End-->
+</body>
+
+</html>
