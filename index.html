@@ -27,10 +27,50 @@
     <link rel="shortcut icon" href="favicon.ico" />
 
     <!-- Translation ================================================== -->
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       window.liveSettings = { api_key: "6cda3073c4c344c1aaea189056b9f03a" };
     </script>
-    <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+    <script type="text/javascript" src="//cdn.transifex.com/live.js"></script> -->
+    <script src="https://global.localizecdn.com/localize.js"></script>
+    <script>
+      !(function (a) {
+        if (!a.Localize) {
+          a.Localize = {};
+          for (
+            var e = [
+                "translate",
+                "untranslate",
+                "phrase",
+                "initialize",
+                "translatePage",
+                "setLanguage",
+                "getLanguage",
+                "getSourceLanguage",
+                "detectLanguage",
+                "getAvailableLanguages",
+                "untranslatePage",
+                "bootstrap",
+                "prefetch",
+                "on",
+                "off",
+                "hideWidget",
+                "showWidget",
+              ],
+              t = 0;
+            t < e.length;
+            t++
+          )
+            a.Localize[e[t]] = function () {};
+        }
+      })(window);
+    </script>
+
+    <script>
+      Localize.initialize({
+        key: "FKfpWRwNShoPb",
+        rememberLanguage: true,
+      });
+    </script>
   </head>
 
   <body data-spy="scroll" data-target="#nav-wrap">
